@@ -370,7 +370,7 @@ int ReadLimtedNumber(int From , int To)
 	int Number;
 	cout << "Enter Your Choise: ";
 	cin >> Number;
-	while (From <= Number <= To)
+	while (From <= Number || Number <= To)
 		return Number;
 }
 
